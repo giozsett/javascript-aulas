@@ -23,6 +23,8 @@
 - O nome das variáveis NÃO PODE conter espaços.
 - Uma variável também não pode ter nome que comece com um número.
 - Para criar terminal no VScode --> TERMINAL + NEW TERMINAL. 
+- Letras maiúsculas e minúsculas FAZEM DIFERENÇA.
+    - TYPEOF --> comando do javascript que mostra o tipo da variável.
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
