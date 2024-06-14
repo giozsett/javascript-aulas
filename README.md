@@ -22,6 +22,7 @@
 - Uma variável NÃO PODE TER NOME que seja IGUAL ao de algum COMANDO.
 - O nome das variáveis NÃO PODE conter espaços.
 - Uma variável também não pode ter nome que comece com um número.
+- Para criar terminal no VScode --> TERMINAL + NEW TERMINAL. 
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
