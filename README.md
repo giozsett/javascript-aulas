@@ -28,4 +28,4 @@
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
-Vídeo: Módulo B - Aula 05
+Vídeo: Módulo B - Aula 06 - 
