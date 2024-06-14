@@ -16,7 +16,12 @@
     - React (criada pelo Facebook);
     - Vue (criado em 2014);
     - Electron (mantido pelo github, criado para elaborar interfaces gráficas);
-    Ionic (sdk para criar aplicações para dispositivos móveis.)
+    - Ionic (sdk para criar aplicações para dispositivos móveis);
+
+## Aula 05 - Variáveis
+- Uma variável NÃO PODE TER NOME que seja IGUAL ao de algum COMANDO.
+- O nome das variáveis NÃO PODE conter espaços.
+- Uma variável também não pode ter nome que comece com um número.
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
