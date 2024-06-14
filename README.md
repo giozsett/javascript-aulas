@@ -26,6 +26,11 @@
 - Letras maiúsculas e minúsculas FAZEM DIFERENÇA.
     - TYPEOF --> comando do javascript que mostra o tipo da variável.
 
+## Aula 06 - Tratamento de dados
+- Conversões de tipos de dados:
+    - Numer.parseInt(n) --> Converte para um número inteiro.
+    - Numer.parseFloat(n) --> Converte para um número real (inclui números com vírgula).
+
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
-Vídeo: Módulo B - Aula 06 - 
+Vídeo: Módulo B - Aula 06 - 17min
