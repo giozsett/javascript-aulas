@@ -12,6 +12,9 @@
             font-family: Arial, Helvetica, sans-serif;
             padding: 40px;
         }
+
+        strong {text-transform: uppercase;
+            font-size: 18px;}
      </style>
 </head>
 
@@ -19,8 +22,7 @@
     <h1>Aula 07 - Operadores</h1>
 
     <br>
-    <h4>Operadores aritméticos binários:</h4>
-    <p>Operadores aritméticos binários são aqueles que precisam de 2 operandos.</p>
+    <h4>Operadores aritméticos:</h4>
     <ul>
         <li><b>+</b>&nbsp;&nbsp;  soma;</li>
         <li><b>-</b>&nbsp;&nbsp;  subtração;</li>
@@ -29,5 +31,37 @@
         <li><b>%</b>&nbsp;&nbsp;  resto da divisão inteira;</li>
         <li><b>**</b>&nbsp;&nbsp;  potência;</li>
     </ul>
+
+    <br>
+    <ul>
+        <li>Operadores aritméticos binários são aqueles que precisam de 2 operandos.</li>
+        <li>No caso de operadores aritméticos com <b>mais de 2 operandos</b>, é <strong>necessário usar parênteses</strong> para determinar a ordem em 
+            que as operações serão realizadas.</li>
+        <li>Ao criar uma variável, o sinal <strong>=</strong> significa recebe, diante disso, é preciso tomar cuidado pois nem sempre o 
+            sinal de = significa igual.</li>
+        <li>Também é preciso lembrar que os sinais de operadores respeitam a <strong>hierarquia</strong>: 
+            potência <b>></b> divisão ou multiplicação <b>></b> soma ou subtração.</li>
+        <li>E também seguem a <strong>ordem de atribuição</strong>, ou seja, por exemplo, 
+            se houver uma multiplicação seguida de uma divisão, a multiplicação será feita primeiro.</li>
+    </ul>
+    <br><br><br>
+
+
+    <script>
+        var num1 = Number(window.prompt('Digite um número: '))
+        var num2 = Number(window.prompt('Digite outro número: '))
+        var soma = num1 + num2
+        var subtracao = num1 - num2
+        var multiplicacao = num1 * num2
+        var divisao = num1 / num2
+        var divinteira = num1 % num2
+        var potencia = num1 ** num2
+        document.write(`${num1} + ${num2} = ${soma}`)
+        document.writeln(`<br>${num1} - ${num2} = ${subtracao}`)
+        document.writeln(`<br>${num1} * ${num2} = ${multiplicacao}`)
+        document.writeln(`<br>${num1} / ${num2} = ${divisao}`)
+        document.writeln(`<br>${num1} % ${num2} = ${divinteira}`)
+        document.writeln(`<br>${num1} ** ${num2} = ${potencia}`)
+    </script>
 </body>
 </html>
