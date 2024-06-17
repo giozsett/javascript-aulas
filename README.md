@@ -42,6 +42,9 @@
         - 'Estou aprendendo s'    --> não faz interpolação
         - 'Estou aprendendo ' +s  --> usa concatenação
         - `Estou aprendendo ${s}` --> usa template string
+        - s.length  --> determina a quantidade de caracteres para uma string
+        - s.toUpperCase() --> transforma as letras da string em MAIÚSCULAS
+        - s.toLowerCase() --> transforma as letras da string em MINÚSCULAS
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo

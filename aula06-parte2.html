@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 06 ex02</title>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aula 06 - Exercício 2</h1>
+    <p> O comando <b>document.write</b> escreve na tela SEM PULAR LINHA.</p>
+    <p>O comando <b>document.writeln</b> escreve na tela NA LINHA DE BAIXO.</p>
+
+
+    <script>
+        var nome = window.prompt('Qual seu nome?')
+        document.write(`Bem-vindo(a), ${nome}!`)
+        document.writeln(`<br>Seu nome tem ${nome.length} letras.`) //É possível colocar algumas tags de texto do html nesse comando.
+    </script>
+</body>
+</html>
