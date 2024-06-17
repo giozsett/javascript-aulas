@@ -40,4 +40,4 @@
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
-Vídeo: Módulo B - Aula 07 - 20min
+Vídeo: Módulo B - Aula 08 - 00min
