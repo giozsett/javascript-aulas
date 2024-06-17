@@ -38,11 +38,6 @@
         - n.toString()
         - String(n)
 
-    - FORMATANDO STRINGS:
-        - 'Estou aprendendo s'    --> não faz interpolação
-        - 'Estou aprendendo ' +s  --> usa concatenação
-        - `Estou aprendendo ${s}` --> usa template string
-
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
-Vídeo: Módulo B - Aula 07 - 00min
+Vídeo: Módulo B - Aula 07 - 08min
