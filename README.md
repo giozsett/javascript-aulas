@@ -28,10 +28,15 @@
 
 ## Aula 06 - Tratamento de dados
 - Conversões de tipos de dados:
-    - Numer.parseInt(n) --> Converte para um número inteiro.
-    - Numer.parseFloat(n) --> Converte para um número real (inclui números com vírgula).
-    - É POSSÍVEL SIMPLIFICAR ESSAS DUAS SINTAXES COM  --> Number(n)
-        - Porém com Number(n), o javascript que decidirá de acordo com o tipo de dado que receber.
+    - CONVERSÃO DE STRING PARA NÚMERO:
+        - Numer.parseInt(n) --> Converte para um número inteiro.
+        - Numer.parseFloat(n) --> Converte para um número real (inclui números com vírgula).
+        - É POSSÍVEL SIMPLIFICAR ESSAS DUAS SINTAXES COM  --> Number(n)
+            - Porém com Number(n), o javascript que decidirá de acordo com o tipo de dado que receber.
+        
+    - CONVERSÃO DE OUTRO DADO PARA STRING:
+        - n.toString()
+        - String(n)
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
