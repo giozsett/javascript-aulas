@@ -1,13 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 09</title>
+
+        <!-- Estilos do documento.-->
+         <style>
+            body {background-color: #ffe4c4;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                padding: 20px 60px;
+                font-size: 15px;}
+
+            h1 {color: #193892;
+                font-size: 40px;
+                font-weight: bolder;}
+
+            h3 {color: #3a22a5;
+            font-size: 28px;}
+
+            h4 {color: #291581;
+                font-size: 25px;}
+
+            strong {color: #594bd6;
+                font-weight: bolder;
+                font-size: 24px;
+                font-family: 'arial';}
+
+            u {font-weight: bolder;
+                font-size: 18px;
+                text-decoration: none;}
+         </style>
 </head>
 
 <body>
     <h1>Aula 09 - DOM</h1>
+    <p>Estensões do VScode para usar o DOM: 
+        <b>Live Server</b> e <b>Node.js Exec</b>
+    <br><strong>DOM =</strong> Document Object Model 
+    <br>DOM é o conjunto de objetos do navegador que dão acesso a 
+        componentes internos do website.</p>
+    <br>
     
+    <h3>Árvore DOM</h3>
+    <ul>
+        <li><strong>Window:</strong> É a <b>raiz</b>, tudo que está
+            JavaScript está dentro desse objeto chamado Window.</li>
+        <li><u>Location:</u> Localização e endereço do site, URL da página atual,
+            qual foi página anterior, etc.</li>
+        <li><u>Document:</u> Página atual. Dentro dela há o <b>HTML</b>.</li>
+        <li><u>History:</u> Histórico de páginas, facilita a navegação
+            dentro do site.</li>
+    </ul>
+    <br>
+
+    <h4>Formas de acessar um elemento dentro do DOM:</h4>
+    <ul>
+        <li><u>por Marca:</u> getElementsByTagName()</li>
+        <li><u>por ID:</u> getElementById() - esse seletor é no SINGULAR.</li>
+        <li><u>por Nome:</u> getElementsByName() - só é possível utilizar quando 
+            há um atributo <b>name</b>.</li>
+        <li><u>por Classe:</u> getElementsByClassName()</li>
+        <li><u>por Seletor:</u> querySelector() e querySelectorAll() - Presente apenas nas versões mais recentes do ECMA script. 
+            Mais prático para alterações rápidas no site.</li>
+    </ul>
+
+    <p>Resultado vai aqui.</p>
+    <div>Clique aqui!</div>
+
+        <!-- Conteúdo JavaScript vai aqui.-->
+         <script>
+            window.document.write(window.document.charset) //é possível exibir algumas informações da página com o javascript.
+            
+            var paragrafo1 = window.document.getElementsByTagName('p')[1] //o numero 1 corresponde ao 2º parágrafo
+            window.document.writeln('Está escrito assim ' +paragrafo1.innerText) //adiciona texto no parágrafo selecionado.
+            paragrafo1.style.color = 'red' //mudando a cor do texto adicionado.
+            
+
+         </script>
 </body>
 </html>

@@ -40,4 +40,4 @@
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
-Vídeo: Módulo C - Aula 09
+Vídeo: Módulo C - Aula 10 -- 00min
