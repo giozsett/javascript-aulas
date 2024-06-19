@@ -40,4 +40,4 @@
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
-Vídeo: Módulo C - Aula 10 -- 16min   +++++/29min--13min--17aulas--faltam7--INICIAR EXERCICIO 01 APÓS ESSA AULA*/*---++++++++++
+Vídeo: Módulo C - Aula 10 -- 19min   +++++/29min--10min--17aulas--faltam7--INICIAR EXERCICIO 01 APÓS ESSA AULA*/*---++++++++++
