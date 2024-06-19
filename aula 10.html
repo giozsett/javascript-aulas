@@ -13,29 +13,66 @@
             font-size: 15px;}
 
         h1 {color: #299e05;
-            font-size: 40px;
+            font-family: 'Lucida Sans Unicode';
+            font-size: 44px;
             font-weight: bolder;}
 
+        h3 {font-size: 22px;
+            color: #008800;
+            font-family: 'Lucida Sans';}
+
+        strong {font-size: 18px;}
+
         div#interacoes {font-family: 'Arial';
-            font-size: 20px;
-            background-color: goldenrod;
+            font-size: 25px;
+            text-align: center;
+            background-color: goldenrods;
             font-weight: bolder;
             padding: 20px;
+            width: 500px;
         }
     </style>
 </head>
 
 <body>
     <h1>Aula 10 - DOM</h1>
+    
+    <h3>Eventos DOM de mouse:</h3>
+    <ul>
+        <li><strong>mouseenter:</strong> Cursor do mouse foi movido até dentro do elemento.</li>
+        <li><strong>mousemove:</strong> Cursor do mouse foi movido enquanto já estiver dentro do elemento.</li>
+        <li><strong>mousedown:</strong> Cursor do mouse foi pressionado dentro do elemento.</li>
+        <li><strong>mouseup:</strong> Cursor do mouse foi solto após ter sido pressionado dentro do elemento.</li>
+        <li><strong>click:</strong> Evento que corresponde ao clique "inteiro".</li>
+        <li><strong>mouseout:</strong> Quando o cursor do mouse for movido para fora do elemento.</li>
+    </ul>
+    <br>
+
+    <h3>Função</h3>
+    <p>Consiste no conjunto de linhas de código que serão executadas quando um determinado evento ocorrer.
+        <br>Uma função <b>não é executada automaticamente</b>, ela precisa de um evento para que seja "ativada".
+        <br>A função deve estar dentro de um <b>bloco</b> que é delimitado pelos sinais <b>{ }</b>
+        <br><strong>Função Anônima:</strong> O JavaScript possui algumas funções que não têm nome, porém
+        ainda assim, uma função precisa de um nome para ocorrer.
+        <br>As funções são escritas da seguinte forma:
+        <br><strong>function ação(parâmetros) { }</strong>
+    </p>
+    <br>
 
 
-    <div id="interacoes">
+    <!-- Para que a div dispare um evento de clique, foi usado 'onclick'.-->
+    <div id="interacoes" onclick="clicar()">
         Interações vão aqui...
     </div>
 
 
     
     <!-- Conteúdo JavaScript.-->
-    <script></script>
+    <script>
+        /** A função do clique na div será anônima.**/
+        function {
+            
+        }
+    </script>
 </body>
 </html>
