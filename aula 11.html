@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,17 @@
             color: #002872;
         }
 
+        h4 {font-size: 22px;
+            color: crimson;
+            font-weight: bolder;
+        }
+
         strong {font-size: 18px;}
+
+        label {font-family: 'Arial';
+        font-size: 17px;
+        font-weight: bold;
+        }
      </style>
 </head>
 
@@ -52,9 +62,34 @@
     seja falsa, nada de especial ocorre e o código apenas segue seu fluxo.
 
 
+    <br><br>
+    <h4>Sistema de Multas</h4>
+
+    <label for="txtvelocidade">Velocidade: </label>
+    <input type="number" name="txtvelocidade" id="txtvelocidade">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="resultado"></div>
+    <div id="limite-vel"></div>
+
+
+
     <!-- Conteúdo JavaScript.-->
      <script>
 
+        function calcular() { //Cria a função p/ verificar se está acima da velocidade permitida.
+            var txtvelocidade = window.document.getElementById('txtvelocidade')
+            var resultado = window.document.querySelector('div#resultado')
+            var velocidade = Number(txtvelocidade.value)
+            var mensagem_limite = window.document.querySelector('div#limite-vel')
+            
+            resultado.innerHTML = `A velocidade atual é <b>${velocidade}km/h</b>.`
+
+            /** Verifica se a velocidade está acima.**/
+            if (velocidade > 60) {
+                mensagem_limite.innerHTML = '<br><b>Seu carro está acima do limite de velocidade!</b>'
+                mensagem_limite.style.color = 'red'
+            }
+        }
      </script>
 </body>
 </html>
