@@ -40,4 +40,5 @@
 
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
-Vídeo: Módulo D - Aula 11 -- 00min
+Vídeo: Módulo D - Aula 11 -- 00min 
+//++ LEMBRAR DE ENTRAR NOS EXERCÍCIOS APÓS O FIM DA AULA 12 DO MÓDULO D.
