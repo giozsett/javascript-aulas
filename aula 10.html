@@ -23,13 +23,29 @@
 
         strong {font-size: 18px;}
 
+        div#eventos {display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
         div#interacoes {font-family: 'Arial';
             font-size: 25px;
             text-align: center;
-            background-color: goldenrods;
+            background-color: goldenrod;
             font-weight: bolder;
             padding: 20px;
-            width: 500px;
+            width: 400px;
+        }
+
+        div#eventolistener {font-family: 'Arial';
+            font-size: 25px;
+            text-align: center;
+            font-weight: bolder;
+            margin-top: 15px;
+            background-color: greenyellow;
+            padding: 20px;
+            width: 400px;
         }
     </style>
 </head>
@@ -60,18 +76,66 @@
     <br>
 
 
-    <!-- Para que a div dispare um evento de clique, foi usado 'onclick'.-->
-    <div id="interacoes" onclick="clicar()">
-        Interações vão aqui...
+    <div id="eventos">
+        <!-- Para que a div dispare um evento de clique, foi usado 'onclick'.-->
+        <!-- Para um evento de passar o mouse: 'onmouseenter'.-->
+        <!-- Evento de "tirar o mouse": 'onmouseout'.-->
+        <div id="interacoes" onclick="clicar()" onmouseenter="passamouse()" onmouseout="mousesaiu()">
+            Interações vão aqui...
+        </div>
+
+        <!-- EVENTOS DISPARADOS COM LISTENERS-->
+        <div id="eventolistener">
+            Evento com Listener vai aqui...
+        </div>
     </div>
 
 
+ 
     
     <!-- Conteúdo JavaScript.-->
     <script>
-        /** A função do clique na div será anônima.**/
-        function {
-            
+        /** Cria a função do clique na div.**/
+        function clicar() {
+            var interacao = window.document.getElementById('interacoes');
+            interacao.innerHTML = 'Clicou!'; //Mensagem que aparecerá após o clique.
+            interacao.style.background = '#c9ff5c'
+        }
+
+        /** Cria a função de passar o mouse na div.**/
+        function passamouse() {
+            var interacao = window.document.getElementById('interacoes');
+            interacao.innerText = 'Cursor está dentro da div!';
+        }
+
+        /** Cria a função p/ quando mouse sair da div.**/
+        function mousesaiu() {
+            var interacao = window.document.getElementById('interacoes');
+            interacao.innerHTML = 'Cursor saiu da div!';
+            interacao.style.background = 'goldenrod';
+        }
+
+        /** CRIA OS LISTENERS**/
+        var evento_listener = window.document.getElementById('eventolistener');
+        evento_listener.addEventListener('click', clique);
+        evento_listener.addEventListener('mouseenter', mouse_dentro);
+        evento_listener.addEventListener('mouseout', mouse_fora);
+
+        /** Função do clique c/ listener.**/
+        function clique() {
+            evento_listener.innerText = 'Clicou!!!';
+            evento_listener.style.background = '#ff8457'
+        }
+
+        /** Função do mouseenter c/ listener.**/
+        function mouse_dentro() {
+            evento_listener.innerText = 'Cursor entrou na div!';
+        }
+
+        /** Função do mouseout c/ listener.**/
+        function mouse_fora() {
+            evento_listener.innerText = 'Cursor saiu da div!!';
+            evento_listener.style.background = 'greenyellow'
         }
     </script>
 </body>
