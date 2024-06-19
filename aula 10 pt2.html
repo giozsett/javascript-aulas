@@ -31,8 +31,11 @@
     <h3>Somando Números</h3>
     <input type="number" name="txtnum1" id="txtnum1">
     <strong>+</strong>
-    <input type="number" name="txtnum2" id="txnum2">
-    <input type="button" value="somar" onclick="somar()">
+    <input type="number" name="txtnum2" id="txtnum2">
+    <input type="button" value="Somar" onclick="somar()">
+
+    <br><br>
+    <div id="resultado">Resultado</div>
 
 
     <!-- Conteúdo JavaScript-->
@@ -40,7 +43,11 @@
         function somar() {
             var textonumero1 = window.document.getElementById('txtnum1');
             var textonumero2 = window.document.querySelector('input#txtnum2');
-            
+            var num1valor = Number(textonumero1.value);
+            var num2valor = Number(textonumero2.value);
+            var soma = num1valor + num2valor;
+            var resultado = window.document.getElementById('resultado');
+            resultado.innerHTML = soma;
         }
     </script>
 </body>
