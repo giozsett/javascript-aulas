@@ -1,4 +1,9 @@
-var hora = 21
+
+
+/** PEGANDO A HORA ATUAL DO SISTEMA.**/
+var agora = new Date()
+var hora = agora.getHours()
+
 console.log(`Agora são ${hora} horas.`)
 
 if (hora < 12) {
