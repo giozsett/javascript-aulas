@@ -1,3 +1,16 @@
+@font-face {
+    font-family:'YoungMorin';
+    src: url('https://cdn.jsdelivr.net/gh/giozsett/projeto-site-rpg@dia2404/fonts/YoungMorinRegular-JRzjm.ttf') format('opentype');
+}
+@font-face {
+    font-family:'Playfair Display';
+    src: url('https://cdn.jsdelivr.net/gh/giozsett/projeto-site-rpg@dia2404/fonts/PlayfairDisplayRegular-ywLOY.ttf') format('opentype');
+}
+@font-face {
+    font-family:'Open Sans';
+    src: url('https://cdn.jsdelivr.net/gh/giozsett/projeto-site-rpg@dia2404/fonts/OpenSans-B9K8.ttf') format('opentype');
+}
+
 *{
     margin: 0;
     padding: 0;
