@@ -28,6 +28,13 @@
         }
 
         strong {font-size: 18px;}
+
+        em {color: #2b69db;
+            font-size: 17px;
+        }
+
+        i {color: #0f419e;
+            font-size: 16px;}
      </style>
 </head>
 
@@ -37,6 +44,27 @@
     <h3>Condições Aninhadas</h3>
     <p>São condições compostas (com if e else) que possuem outras condições dentro delas.
         <br>Utilizam um elemento chamado <b>else if</b>.</p>
+    <br>
+
+    <h3>Condição Múltipla</h3>
+    <p>
+        São utilizadas quando é necessário trabalhar com <b>valores fixos</b>. Testa vários valores e depois retorna ao fluxo natural do código.
+        <br>No entanto, não são recomendadas para trabalhar com intervalos de valores.
+        <br>Dentro de cada bloco precisa haver um comando <b>break</b>.<br>
+        <br><strong>switch (expressão) { 
+            <br>&nbsp;&nbsp;&nbsp; case <em>valor1</em>:
+            <br>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>break</i>
+            <br>
+            <br>&nbsp;&nbsp;&nbsp; case <em>valor2</em>:
+            <br>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>break</i>
+            <br>
+            <br>&nbsp;&nbsp;&nbsp; default:
+            <br>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>break</i>
+        <br>}</strong>
+    </p>
     <br>
     
 
