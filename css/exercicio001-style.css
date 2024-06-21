@@ -48,4 +48,5 @@ section {display: flex;
 footer {display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    font-size: 20px; 
 }
