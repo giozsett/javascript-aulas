@@ -40,10 +40,13 @@ h1 {font-family: 'Lucida Sans Unicode';
 section {display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-color: aliceblue;
+    border-radius: 20px;
 }
 
 /** RODAPÉ DO SITE**/
 footer {display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    font-size: 20px; 
 }
