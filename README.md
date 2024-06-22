@@ -41,4 +41,4 @@
 
 Aulas de Javascript -- youtube --> Curso em Vídeo
 Vídeo: Módulo E - Aula 13 -- 00min  
-Exercícios: 01 -- 12min
+Exercícios: 02 -- 00min
