@@ -80,7 +80,7 @@ function carregar() {
     } else {
         /** BOA NOITE!**/
         img.src = 'boanoite.png'
-        fundo.style.background = '#024c67'
+        fundo.style.background = '#1c5f78'
         img.style.border = '8px solid #f0f8ff'
         img.style.background = '#f0f8ff'
         img.style.boxShadow = '2px 2px rgb(0, 0, 0, 0.55)'
