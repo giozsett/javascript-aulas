@@ -31,6 +31,7 @@ header {display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 h1 {font-family: 'Lucida Sans Unicode';
@@ -44,11 +45,21 @@ h1 {font-family: 'Lucida Sans Unicode';
 section {display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: center;
     background-color: aliceblue;
     border-radius: 10px;
-    padding: 15px 40px;
+    padding: 20px 40px;
     width: 80%;
-    box-shadow: 3px 3px rgb(0, 0, 0, 0.45);
+    box-shadow: 3px 3px rgb(0, 0, 0, 0.75);
+    border: 1px solid rgba(66, 133, 122, 0.85);
+}
+
+#msg-hora {font-family: 'Roboto Slab';
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /** RODAPÉ DO SITE**/
