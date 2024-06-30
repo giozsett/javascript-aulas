@@ -46,7 +46,7 @@ section {display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     border-radius: 10px;
     padding: 20px 40px;
     width: 80%;
@@ -59,10 +59,13 @@ section {display: flex;
     text-align: center;
     width: 100%;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-#icon_hora {
-    margin-top: 20px;
+#icon_hora {width: 256px;
+    height: 256px;
+    border-radius: 100%;
+    padding-top: 5px;
 }
 
 /** RODAPÉ DO SITE**/

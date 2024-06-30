@@ -3,6 +3,7 @@ function carregar() {
     /** Cria variáveis com os IDs das divs.**/
     var msg_hora = window.document.getElementById('msg_hora')
     var img = window.document.getElementById('icon_hora')
+    var fundo = window.document.getElementById('fundo')
     
     /** Criando variável que guardará a data atual.**/
     /** E criando as demais variáveis para pegar a hora, o dia, mês e ano.**/
@@ -63,11 +64,25 @@ function carregar() {
     if (hora_atual >= 0 && hora_atual < 12) {
         /** BOM DIA!**/
         img.src = 'bomdia.png'
+        fundo.style.background = '#fff2b4'
+        img.style.border = '8px solid #f0f8ff'
+        img.style.background = '#f0f8ff'
+        img.style.boxShadow = '2px 2px rgb(0, 0, 0, 0.55)'
+        
     } else if (hora_atual >= 12 && hora_atual < 18) {
         /** BOA TARDE!**/
         img.src = 'boatarde.png'
+        fundo.style.background = '#ffa32d'
+        img.style.border = '8px solid #f0f8ff'
+        img.style.background = '#f0f8ff'
+        img.style.boxShadow = '2px 2px rgb(0, 0, 0, 0.55)'
+        
     } else {
         /** BOA NOITE!**/
         img.src = 'boanoite.png'
+        fundo.style.background = '#024c67'
+        img.style.border = '8px solid #f0f8ff'
+        img.style.background = '#f0f8ff'
+        img.style.boxShadow = '2px 2px rgb(0, 0, 0, 0.55)'
     }
 }
