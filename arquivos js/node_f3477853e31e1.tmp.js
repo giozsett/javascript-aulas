@@ -13,7 +13,7 @@ var contador2 = 1
 do {
     console.log(`Bom dia!! ${contador2}`)
     contador2++
-} while (contador2 <= 16)
+} while (contador2 = 16)
 
 
 /*
