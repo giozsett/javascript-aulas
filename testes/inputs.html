@@ -20,6 +20,8 @@
     </div>
     <input type="button" value="+" onclick="bonus_forca()">
 
+    <div id="msg-erro"></div>
+
 
     <!-- Conteúdo Javascript-->
      <script>
@@ -28,8 +30,11 @@
             var forca = Number(input_forca.value);
             var resultado = window.document.getElementById('bonus_for');
             var bonus = new Number();
+            var msg_erro = window.document.getElementById('msg-erro');
 
-            if (forca > 9 && forca <= 11) {
+            if (forca < 9) {
+                msg_erro.innerHTML = 'O valor do atributo deve ser entre 10 e 25'
+            } else if (forca >= 9 && forca <= 11) {
                 bonus = 0;
             } else if (forca <= 13) {
                 bonus = 1;
@@ -37,9 +42,17 @@
                 bonus = 2;
             } else if (forca <= 17) {
                 bonus = 3;
-            } else if (forca <= 15) {
-                bonus = 2;
-            } 
+            } else if (forca <= 19) {
+                bonus = 4;
+            } else if (forca <= 21) {
+                bonus = 5;
+            } else if (forca <= 23) {
+                bonus = 6;
+            } else if (forca <= 25) {
+                bonus = 7;
+            } else {
+                msg_erro.innerHTML = 'O valor do atributo deve ser entre 10 e 25'
+            }
 
             resultado.innerHTML = bonus;
         }
