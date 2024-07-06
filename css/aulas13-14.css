@@ -66,12 +66,19 @@ i {color: #0f419e;
 
 /**FAZ OS INPUT NUMBER NÃO TEREM AS SETINHAS DE AUMENTAR E DIMINUIR**/
 /**DESSE JEITO PRECISA DIGITAR O NÚMERO**/
-input[type="number"] {
-    -webkit-appearance: textfield;
-       -moz-appearance: textfield;
-            appearance: textfield;
-  }
+
   input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none;
+}
+
+input[type=button] {width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.bonus {width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    margin-left: 5px;
 }
