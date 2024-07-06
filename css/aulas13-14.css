@@ -23,7 +23,6 @@ body {background-color: #daeeff;
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 h1 {font-family: 'Lucida Sans Unicode';
@@ -49,6 +48,7 @@ h4 {font-family: "Playwrite DE Grund";
 }
 
 p {text-align: justify;
+    font-family: 'karla';
     background-color: aliceblue;
     border-radius: 5px;
     padding: 10px;
