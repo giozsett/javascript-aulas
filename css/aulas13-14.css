@@ -63,3 +63,15 @@ em {color: #2b69db;
 
 i {color: #0f419e;
     font-size: 16px;}
+
+/**FAZ OS INPUT NUMBER NÃO TEREM AS SETINHAS DE AUMENTAR E DIMINUIR**/
+/**DESSE JEITO PRECISA DIGITAR O NÚMERO**/
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
