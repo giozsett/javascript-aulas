@@ -23,11 +23,11 @@ body {background-color: #daeeff;
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    
 }
 
 h1 {font-family: 'Lucida Sans Unicode';
-    font-size: 50px;
+    font-size: 36px;
     color:rgb(74, 38, 121);
     margin-top: 20px;
     margin-bottom: 20px;
@@ -46,6 +46,13 @@ h3 {font-size: 20px;
 
 h4 {font-family: "Playwrite DE Grund";
     font-size: 20px;
+}
+
+p {text-align: justify;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0px;
 }
 
 strong {font-size: 18px;}
