@@ -78,12 +78,23 @@ input[type=button] {width: 40px;
 }
 
 /** ESTILOS REFERENTES AO TESTE DOS INPUTS.**/
-.teste-rpg {display: flex;
-    flex-wrap: wrap;
+
+
+.teste-rpg td{ padding: 2px;
+    display: flex;
+    justify-content: space-arounds;
 }
 
-.bonus {width: 40px;
+.teste-rpg input[type=number] {width: 40px;
     height: 40px;
+    border: 2px solid #002872;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.bonus {width: 30px;
+    height: 30px;
     border: 1px solid #000;
     margin-left: 5px;
+    border-radius: 100%;
 }
